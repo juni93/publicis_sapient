@@ -1,0 +1,24 @@
+{
+    "App\\Models\\DynamicField": "Campo Dinamico",
+    "App\\Models\\DynamicForm": "Form Dinamico",
+    "attributes":{
+        "App\\Models\\DynamicField":{
+            "field_type":{
+                "0": "text",
+                "1": "password",
+                "2": "textarea"
+            },
+            "validation_type":{
+                "0": "numeric",
+                "1": "string",
+                "2": "password",
+                "3": "email",
+                "4": "alpha-numeric"
+            }
+        },
+        "choice": {
+            "N": "No",
+            "Y": "Yes"
+        }
+    }
+}
