@@ -1,16 +1,19 @@
 
 
-## Step for setup:
+## Steps for setup:
 
  
 1.  Clone the repository.
 2.  Create an `.env` file.
 3.  Copy the contents of `.env.example` into `.env`.
-4.  Run `docker compose build`.
+4.  Run `docker compose build --no-cache`.
 5.  Run `docker compose up -d`.
 6.  Access docker with `docker exec -it laravel-app-1 bash`.
-7.  Run `php artisan migrate`.
-8.  Run `php artisan db:seed`.
+7.  Run `composer install`.
+8.  Run `npm install`.
+9.  Run `npm run dev`.
+10.  Run `php artisan migrate`.
+11.  Run `php artisan db:seed`.
 
 Navigate to localhost:8000 (*if this port is already occupied consider changing this port in docker-compose.yml in service webserver*)
 
